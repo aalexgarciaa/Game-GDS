@@ -1,0 +1,48 @@
+*{
+    box-sizing:border-box ;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:verdana;
+    display: flex;
+    justify-content: center;
+}
+
+#title{
+    font-size: 30pt;
+    text-align: center;
+    color: beige;
+}
+
+.game-box{
+ background-color: rgb(172, 119, 127);
+ width: 600px;
+ height: 600px; 
+}
+
+/*Buttons, come back to this */
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+#start{
+    background-color: beige;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+#start:hover{
+    cursor: pointer;
+    background-color: white;
+}
+#reset{
+    background-color: beige;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+#reset:hover{
+    cursor: pointer;
+    background-color: white;
+}
