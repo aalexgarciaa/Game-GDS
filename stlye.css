@@ -9,16 +9,15 @@ body{
     justify-content: center;
 }
 
+/*Container and Title*/
+.game-box{
+ background-color: rgb(172, 119, 127);
+ padding: 30px;
+}
 #title{
     font-size: 30pt;
     text-align: center;
     color: beige;
-}
-
-.game-box{
- background-color: rgb(172, 119, 127);
- width: 600px;
- height: 600px; 
 }
 
 /*Buttons, come back to this */
@@ -45,4 +44,19 @@ body{
 #reset:hover{
     cursor: pointer;
     background-color: white;
+}
+
+/* Grid Background */
+.game-area{
+    background-color:rgb(150, 103, 110);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 10px;
+}
+.grid-box{
+    background-color: rgb(172, 119, 127);
+    height: 160px;
+    width: 160px;
+    
 }
