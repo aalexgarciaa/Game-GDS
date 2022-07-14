@@ -58,5 +58,21 @@ body{
     background-color: rgb(172, 119, 127);
     height: 160px;
     width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+}
+
+/* Styling X and O */
+.X::before{
+    content: 'X';
+    font-size: 90px;
+    color: beige;
+    
+}
+.O::before{
+    content: 'O';
+    font-size: 90px;
+    color: beige;
 }
